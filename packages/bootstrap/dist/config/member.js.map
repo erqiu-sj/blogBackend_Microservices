@@ -1,0 +1,1 @@
+{"version":3,"file":"member.js","sourceRoot":"","sources":["../../src/config/member.ts"],"names":[],"mappings":";;;AAOA,sCAA0C;AAC1C,yDAAuE;AAE1D,QAAA,gBAAgB,GAAG,gBAAgB,CAAA;AAEnC,QAAA,gBAAgB,GAAiC;IAC5D,IAAI,EAAE,wBAAgB;IACtB,SAAS,EAAE,yBAAS,CAAC,GAAG;IACxB,OAAO,EAAE;QACP,IAAI,EAAE,uBAAc,CAAC,MAAM;KAC5B;CACF,CAAA"}

@@ -1,0 +1,22 @@
+{
+  "name": "@blog/main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main",
+    "start:debug": "nest start --debug --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@blog/article": "^1.0.0",
+    "@blog/bootstrap": "^1.0.0",
+    "@blog/logs": "^1.0.0",
+    "@blog/member": "^1.0.0"
+  }
+}

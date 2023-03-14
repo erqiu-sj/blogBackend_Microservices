@@ -1,0 +1,1 @@
+{"version":3,"file":"db.js","sourceRoot":"","sources":["../../src/rpcConstans/db.ts"],"names":[],"mappings":";;;AAQa,QAAA,aAAa,GAAG;IAC3B,MAAM,EAAE;QACN,UAAU,EAAE,eAAe;QAC3B,mBAAmB,EAAE,wBAAwB;QAC7C,UAAU,EAAE,eAAe;QAC3B,OAAO,EAAE,YAAY;QACrB,SAAS,EAAE,cAAc;KAC1B;IACD,OAAO,EAAE,EAAE;CACH,CAAA"}

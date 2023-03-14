@@ -1,0 +1,21 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Member {
+  id        Int      @id @default(autoincrement()) // 用户id
+  createdAt DateTime @default(now())
+  email     String // 用户邮箱
+  name      String   @unique // 用户名 
+  //   admin: 1 || normalUser: 2,
+  role      String // 角色 
+  method    String // 登录方式 user | github
+}

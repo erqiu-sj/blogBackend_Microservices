@@ -12,6 +12,9 @@
     "dev": {
       "cache": false
     },
-    "links": {}
+    "links": {},
+    "start:dev": {
+      "cache": false
+    }
   }
 }

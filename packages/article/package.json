@@ -1,0 +1,20 @@
+{
+  "name": "@blog/article",
+  "version": "1.0.0",
+  "types": "./dts/entry.d.ts",
+  "main": "./dist/entry.js",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main",
+    "start:debug": "nest start --debug --watch",
+    "links": "pnpm link ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@blog/bootstrap": "^1.0.0"
+  }
+}
